@@ -1,8 +1,8 @@
-# map-macro
+# map-macro2
 
-[![Build Status](https://github.com/jofas/map_macro/actions/workflows/build.yml/badge.svg)](https://github.com/jofas/map_macro/actions/workflows/build.yml)
-[![Codecov](https://codecov.io/gh/jofas/map_macro/branch/master/graph/badge.svg?token=69YKZ1JIBK)](https://codecov.io/gh/jofas/map_macro)
-[![Latest Version](https://img.shields.io/crates/v/map-macro.svg)](https://crates.io/crates/map-macro)
+[![Build Status](https://github.com/x0f5c3/map_macro2/actions/workflows/build.yml/badge.svg)](https://github.com/x0f5c3/map_macro2/actions/workflows/build.yml)
+[![Codecov](https://codecov.io/gh/x0f5c3/map_macro2/branch/master/graph/badge.svg?token=69YKZ1JIBK)](https://codecov.io/gh/x0f5c3/map_macro2)
+[![Latest Version](https://img.shields.io/crates/v/map-macro2.svg)](https://crates.io/crates/map-macro2)
 [![Downloads](https://img.shields.io/crates/d/map-macro?label=downloads)](https://crates.io/crates/map-macro)
 [![Docs](https://img.shields.io/badge/docs-latest-blue.svg)](https://docs.rs/map-macro/latest/map_macro)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)

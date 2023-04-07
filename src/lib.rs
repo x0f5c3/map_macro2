@@ -1,5 +1,6 @@
 #![ doc = include_str!("../README.md")]
 
+mod brown;
 /// Macro for creating a [map](std::collections::HashMap).
 ///
 /// Equivalent to the [vec!] macro for [vectors](std::vec::Vec).

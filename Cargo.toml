@@ -7,15 +7,24 @@ license = "MIT"
 readme = "README.md"
 description = "Declarative macros for statically initializing collections"
 keywords = ["macro", "HashMap", "HashSet", "collections", "Vec"]
-homepage = "https://github.com/jofas/map_macro"
-repository = "https://github.com/jofas/map_macro"
+homepage = "https://github.com/x0f5c3/map_macro2"
+repository = "https://github.com/x0f5c3/map_macro2"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
+[features]
+default = ["hashbrown"]
+hashbrown = ["dep:hashbrown"]
+
 [dependencies]
 
+[dependencies.hashbrown]
+version = "0.13.2"
+features = ["rayon", "serde"]
+optional = true
+
 [dev-dependencies]
-criterion = { version = "^0.3.6", features = ["html_reports"] }
+criterion = { version = "0.4.0", features = ["html_reports"] }
 
 [lib]
 bench = false
